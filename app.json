@@ -4,9 +4,9 @@
     "slug": "SolveNewApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/solve_logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/solve_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
