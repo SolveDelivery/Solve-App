@@ -5,7 +5,7 @@ export default class Sign_up
     render() {
         return (
             <div>
-                
+                <Text>Hello!!!</Text> 
             </div>
         )
     }

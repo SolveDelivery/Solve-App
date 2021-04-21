@@ -2,6 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Image, Button} from 'react-native';
 
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
 // import {createStackNavigator} from 'react-navigation';
 // import Steps from './Components/Steps'
 
@@ -16,11 +19,10 @@ export default function App() {
       <Image style={styles.image} source={require('./assets/solve_logo.png')} />
       <Text style={styles.title}>Solve</Text>
       <Text>On-Demand Virtual Shopping and Delivery</Text>
-      <StatusBar style="auto" />
+      <StatusBar style="auto"/>
 
-      <Button title="Continue >" />
-      
-      <Button title="Login >" />
+      <Button title="Continue >"/>
+      <Button title="Login >"/>
 
     </SafeAreaView>
   );
